@@ -1,0 +1,282 @@
+{
+  "versao": "2026.11-1",
+  "data": "2026-11-06",
+  "nota": "Versão inicial. LC 123/2006, Lei 9.249/1995, Lei 9.718/1998, Leis 10.637/2002 e 10.833/2003, LC 224/2025, Lei 15.270/2025, LC 214/2025 e Lei 14.973/2024.",
+  "criadoEm": 1793966400000,
+  "params": {
+    "versao": "2026.11-1",
+    "data": "2026-11-06",
+    "nota": "Versão inicial. LC 123/2006, Lei 9.249/1995, Lei 9.718/1998, Leis 10.637/2002 e 10.833/2003, LC 224/2025, Lei 15.270/2025, LC 214/2025 e Lei 14.973/2024.",
+    "simples": {
+      "limite": 4800000,
+      "sublimite": 3600000,
+      "fatorR": 0.28,
+      "faixas": [
+        180000,
+        360000,
+        720000,
+        1800000,
+        3600000,
+        4800000
+      ],
+      "anexos": {
+        "I": {
+          "a": [
+            4,
+            7.3,
+            9.5,
+            10.7,
+            14.3,
+            19
+          ],
+          "d": [
+            0,
+            5940,
+            13860,
+            22500,
+            87300,
+            378000
+          ]
+        },
+        "II": {
+          "a": [
+            4.5,
+            7.8,
+            10,
+            11.2,
+            14.7,
+            30
+          ],
+          "d": [
+            0,
+            5940,
+            13860,
+            22500,
+            85500,
+            720000
+          ]
+        },
+        "III": {
+          "a": [
+            6,
+            11.2,
+            13.5,
+            16,
+            21,
+            33
+          ],
+          "d": [
+            0,
+            9360,
+            17640,
+            35640,
+            125640,
+            648000
+          ]
+        },
+        "IV": {
+          "a": [
+            4.5,
+            9,
+            10.2,
+            14,
+            22,
+            33
+          ],
+          "d": [
+            0,
+            8100,
+            12420,
+            39780,
+            183780,
+            828000
+          ]
+        },
+        "V": {
+          "a": [
+            15.5,
+            18,
+            19.5,
+            20.5,
+            23,
+            30.5
+          ],
+          "d": [
+            0,
+            4500,
+            9900,
+            17100,
+            62100,
+            540000
+          ]
+        }
+      },
+      "partilha": {
+        "I_pisCofins": [
+          0.155,
+          0.155,
+          0.155,
+          0.155,
+          0.155,
+          0.344
+        ],
+        "I_icms": [
+          0.34,
+          0.34,
+          0.335,
+          0.335,
+          0.335,
+          0
+        ],
+        "III_iss": [
+          0.335,
+          0.32,
+          0.325,
+          0.325,
+          0.335,
+          0
+        ]
+      }
+    },
+    "presumido": {
+      "pres": {
+        "servico": [
+          0.32,
+          0.32
+        ],
+        "comercio": [
+          0.08,
+          0.12
+        ],
+        "industria": [
+          0.08,
+          0.12
+        ],
+        "transp_carga": [
+          0.08,
+          0.12
+        ],
+        "transp_pass": [
+          0.16,
+          0.12
+        ]
+      },
+      "limite": 78000000,
+      "majoracaoAcima": 5000000,
+      "majoracao": 0.1,
+      "pis": 0.0065,
+      "cofins": 0.03
+    },
+    "irpj": {
+      "aliq": 0.15,
+      "adic": 0.1,
+      "limiteAdicAno": 240000
+    },
+    "csll": {
+      "aliq": 0.09
+    },
+    "real": {
+      "pisCofins": 0.0925,
+      "compensacaoMax": 0.3,
+      "tacCreditoFator": 0.75
+    },
+    "folha": {
+      "inss": 0.2,
+      "fgts": 0.08,
+      "inssTACBase": 0.2
+    },
+    "cprb": {
+      "transp_carga": 0.015,
+      "transp_pass": 0.02,
+      "fator2026": 0.6,
+      "folha2026": 0.1,
+      "fator2027": 0.4,
+      "folha2027": 0.15
+    },
+    "reforma": {
+      "cbs2027": 0.087,
+      "ibs2027": 0.001
+    },
+    "dividendos": {
+      "limiteMensal": 50000,
+      "aliq": 0.1,
+      "irpfmLimiteAno": 600000
+    },
+    "iss": {
+      "min": 0.02,
+      "max": 0.05
+    },
+    "fontes": [
+      {
+        "tema": "Tabelas, Fator R, limites e sublimite do Simples",
+        "ato": "LC 123/2006 (redação LC 155/2016), arts. 3º, 18 e 19; Anexos I a V",
+        "status": "vigente"
+      },
+      {
+        "tema": "Partilha dos tributos no DAS (monofásico, ST, transporte)",
+        "ato": "LC 123/2006, art. 18, §§ 4º-A e 5º-E; Resolução CGSN 140/2018",
+        "status": "confirmar"
+      },
+      {
+        "tema": "Presunção do Lucro Presumido (8%, 12%, 16%, 32%)",
+        "ato": "Lei 9.249/1995, arts. 15 e 20",
+        "status": "vigente"
+      },
+      {
+        "tema": "Majoração de 10% na presunção acima de R$ 5 milhões",
+        "ato": "LC 224/2025",
+        "status": "confirmar"
+      },
+      {
+        "tema": "Adicional do IRPJ (R$ 20 mil/mês)",
+        "ato": "Lei 9.249/1995, art. 3º, § 1º",
+        "status": "vigente"
+      },
+      {
+        "tema": "Limite do Presumido e obrigatoriedade do Real (R$ 78 milhões)",
+        "ato": "Lei 9.718/1998, arts. 13 e 14",
+        "status": "vigente"
+      },
+      {
+        "tema": "PIS/COFINS cumulativo e não cumulativo",
+        "ato": "Lei 9.718/1998; Leis 10.637/2002 e 10.833/2003",
+        "status": "vigente"
+      },
+      {
+        "tema": "Exclusão do ICMS da base do PIS/COFINS",
+        "ato": "STF, RE 574.706 (Tema 69); Lei 14.592/2023 (créditos)",
+        "status": "vigente"
+      },
+      {
+        "tema": "Crédito presumido sobre frete de TAC (agregados)",
+        "ato": "Lei 10.833/2003, art. 3º, §§ 19 e 20",
+        "status": "vigente"
+      },
+      {
+        "tema": "INSS sobre frete pago a autônomo (base de 20%)",
+        "ato": "Decreto 3.048/1999, art. 201, § 4º",
+        "status": "vigente"
+      },
+      {
+        "tema": "Desoneração da folha (CPRB) em transição",
+        "ato": "Lei 12.546/2011, art. 8º; Lei 14.973/2024",
+        "status": "confirmar"
+      },
+      {
+        "tema": "CBS e IBS em 2027 (fim do PIS/COFINS)",
+        "ato": "LC 214/2025; alíquota de referência por resolução do Senado",
+        "status": "confirmar"
+      },
+      {
+        "tema": "Tributação de dividendos e IRPF mínimo",
+        "ato": "Lei 15.270/2025",
+        "status": "vigente"
+      },
+      {
+        "tema": "ISS mínimo de 2% e máximo de 5%",
+        "ato": "LC 116/2003, arts. 8º e 8º-A (LC 157/2016)",
+        "status": "vigente"
+      }
+    ]
+  }
+}
